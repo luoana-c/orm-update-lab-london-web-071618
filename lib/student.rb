@@ -60,6 +60,6 @@ class Student
       SELECT * FROM students 
       WHERE name = ? 
       SQL
-    DB[:conn].execute(sql, name)
+    result = DB[:conn].execute(sql, name)[0]
   end 
 end
