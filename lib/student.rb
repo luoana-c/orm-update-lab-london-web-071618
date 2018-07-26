@@ -42,6 +42,7 @@ class Student
   end 
   
   def self.create
-  end 
+    sql = 
+    end 
 
 end
